@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin:auto;
+    width: 80%;
+    /* border: 1px solid blue; */
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0.9em;
+}
+
+.inputContainer{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid rgb(0, 255, 191); */
+    text-align: center;
+}
+
+.text-combination{
+    width: 50%;
+}
+
+.InputRange{
+    width: 30%;
+}
+
+.inputField input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    font-weight: 550;
+}
+/* hilangkan arrow di input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.BtnContainer{
+    width: 500px;
+    margin: auto;
+}
+
+.BtnContainer button {
+    width: 200px;
+    padding: 10px 0;
+    background-color: teal;
+    color: floralwhite;
+    font-size: 0.9em;
+    font-weight: 550;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}
+
+/* toolstip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltip-text{
+    visibility: hidden;
+    font-family: sans-serif;
+    width: 120px;
+    color: darkgray;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
